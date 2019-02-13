@@ -1,0 +1,21 @@
+#one
+{
+color:red;
+}
+#two
+{
+color:blue;
+text-shadow:0.75px 0.75px #ff0000;
+font-weight: bold;
+font-style: italic;
+font-variant:small-caps;
+}
+.eff
+{
+font-size: 30px;
+color:blue;
+}
+.eff1
+{
+background-color:blueviolet;
+}

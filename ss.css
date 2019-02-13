@@ -1,0 +1,43 @@
+body{
+    background-image: url("w.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.profile-usertitle-name
+{
+    font-size: 25px;
+    color: rgb(40, 99, 146);
+}
+.profile-usertitle-job
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    
+}
+div.sticky
+{
+    position: sticky; 
+    top: 20px; 
+    position: -webkit-sticky;
+}
+.profile-userpic img {
+    float: none;
+    margin: 0 auto;
+    width: 75%;
+    height: 75%;
+    -webkit-border-radius: 75% !important;
+    -moz-border-radius: 75% !important;
+    border-radius: 75% !important;
+  }
+  .custom-bullet li:before
+  {
+      /*Using a Bootstrap glyphicon as the bullet point*/
+      content: "\e080";
+      font-family: 'Glyphicons Halflings';
+      font-size: 12px;
+      float: left;
+      margin-top: 4px;
+      margin-left: -17px;
+      color: rgb(32, 166, 255);
+  }
